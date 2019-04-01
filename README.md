@@ -1,4 +1,4 @@
-# "True Random"* Permuter Example
+# "True Random"* Permuter Example (for Android)
 
 I frequently find myself in need of a random number generator, on my person at any given time. Many free smartphone apps abound, for this purpose. Most options available through app stores seem to lack two features I desire:
 
