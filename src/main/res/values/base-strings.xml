@@ -17,13 +17,4 @@
 
 <resources>
     <string name="app_name">QRNG</string>
-    <string name="intro_message">
-        <![CDATA[
-        
-            
-            This sample demonstrates random number generation using Camera2 API.
-            
-        
-        ]]>
-    </string>
 </resources>
