@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;;
 
 import java.io.IOException;
+import java.util.BitSet;
 
 import static com.example.android.qrng.MainActivity.GET_BOOL_ARRAY;
 
@@ -34,7 +35,7 @@ public class HomeFragment extends Fragment {
         final TextView tvCache = (TextView) mView.findViewById(R.id.tvCache);
         int bitCount = 0;
         if (RandSingleton.getInstance().randBools != null) {
-            bitCount = RandSingleton.getInstance().randBools.length - RandSingleton.getInstance().randBoolOffset;
+            bitCount = RandSingleton.getInstance().randSize - RandSingleton.getInstance().randBoolOffset;
         }
         tvCache.setText(Integer.toString(bitCount) + " bits in cache");
 
@@ -64,17 +65,27 @@ public class HomeFragment extends Fragment {
         btnPurify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                boolean[] tempRandBools = new boolean[RandSingleton.getInstance().randBools.length / 2];
+                int sz = RandSingleton.getInstance().randSize;
+                int offset = RandSingleton.getInstance().randBoolOffset;
+                BitSet tempRandBools = new BitSet(sz / 2);
 
                 // Bit derivatives
-                for (int i = 0; i < tempRandBools.length; i++) {
-                    tempRandBools[i] = RandSingleton.getInstance().randBools[i * 2] ^ RandSingleton.getInstance().randBools[i * 2 + 1];
+                for (int i = 0; i < sz / 2; i++) {
+                    if (RandSingleton.getInstance().randBools.get(i * 2) != RandSingleton.getInstance().randBools.get(i * 2 + 1)) {
+                        tempRandBools.set(i);
+                    } else {
+                        tempRandBools.clear(i);
+                    }
                 }
 
                 RandSingleton.getInstance().randBools = tempRandBools;
+                RandSingleton.getInstance().randSize /= 2;
                 RandSingleton.getInstance().randBoolOffset /= 2;
 
-                tvCache.setText(Integer.toString(tempRandBools.length) + " bits in cache");
+                sz /= 2;
+                offset /= 2;
+
+                tvCache.setText(Integer.toString(sz - offset) + " bits in cache");
             }
         });
 
@@ -86,7 +97,7 @@ public class HomeFragment extends Fragment {
         @Override
         protected Void doInBackground(Integer... byteCounts) {
             int byteCount = byteCounts[0];
-            boolean[] anuBits = new boolean[byteCount * 8];
+            BitSet anuBits = new BitSet(byteCount * 8);
             AnuRandom anuRandom = new AnuRandom(byteCount);
             byte[] anuBytes = null;
             try {
@@ -99,15 +110,16 @@ public class HomeFragment extends Fragment {
 
             for (int i = 0; i < anuBytes.length; i++) {
                 for (int j = 0; j < 8; j++) {
-                    if ((anuBytes[i] & (1 << j)) > 0) {
-                        anuBits[(i * 8) + j] = true;
+                    if (((anuBytes[i] >> j) & 1) > 0) {
+                        anuBits.set((i * 8) + j);
                     } else {
-                        anuBits[(i * 8) + j] = false;
+                        anuBits.clear((i * 8) + j);
                     }
                 }
             }
 
             RandSingleton.getInstance().randBools = anuBits;
+            RandSingleton.getInstance().randSize = byteCount * 8;
             RandSingleton.getInstance().randBoolOffset = 0;
 
             return null;

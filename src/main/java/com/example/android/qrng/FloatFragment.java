@@ -25,7 +25,7 @@ public class FloatFragment extends Fragment {
         final TextView tvCache = (TextView) mView.findViewById(R.id.tvCache);
         int bitCount = 0;
         if (RandSingleton.getInstance().randBools != null) {
-            bitCount = RandSingleton.getInstance().randBools.length - RandSingleton.getInstance().randBoolOffset;
+            bitCount = RandSingleton.getInstance().randSize- RandSingleton.getInstance().randBoolOffset;
         }
         tvCache.setText(Integer.toString(bitCount) + " bits in cache");
 
@@ -37,7 +37,7 @@ public class FloatFragment extends Fragment {
             public void onClick(View view) {
                 int bitCount = 0;
                 if (RandSingleton.getInstance().randBools != null) {
-                    bitCount = RandSingleton.getInstance().randBools.length - RandSingleton.getInstance().randBoolOffset;
+                    bitCount = RandSingleton.getInstance().randSize - RandSingleton.getInstance().randBoolOffset;
                 }
                 if (bitCount < 24) {
                     tvNumber.setText("Not enough bits in cache.");
@@ -46,7 +46,7 @@ public class FloatFragment extends Fragment {
                     double value = 0.0;
                     double partSig = 0.5;
                     for (int i = 0; i < 24; i++) {
-                        if (RandSingleton.getInstance().randBools[RandSingleton.getInstance().randBoolOffset]) {
+                        if (RandSingleton.getInstance().randBools.get(RandSingleton.getInstance().randBoolOffset)) {
                             value += partSig;
                         }
                         partSig /= 2;

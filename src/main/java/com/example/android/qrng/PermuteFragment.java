@@ -30,7 +30,7 @@ public class PermuteFragment extends Fragment {
         final TextView tvCache = (TextView) mView.findViewById(R.id.tvCache);
         int bitCount = 0;
         if (RandSingleton.getInstance().randBools != null) {
-            bitCount = RandSingleton.getInstance().randBools.length - RandSingleton.getInstance().randBoolOffset;
+            bitCount = RandSingleton.getInstance().randSize - RandSingleton.getInstance().randBoolOffset;
         }
         tvCache.setText(Integer.toString(bitCount) + " bits in cache");
 
@@ -55,22 +55,37 @@ public class PermuteFragment extends Fragment {
 
                 double value = 0.0;
                 int bitCount = 0;
-                if (RandSingleton.getInstance().randBools != null) {
-                    bitCount = RandSingleton.getInstance().randBools.length - RandSingleton.getInstance().randBoolOffset;
-                }
-                if (bitCount < 24) {
+
+                if ((RandSingleton.getInstance().randBools == null) ||
+                        (optionCount > 2 && ((RandSingleton.getInstance().randSize - 24) < RandSingleton.getInstance().randBoolOffset)) ||
+                        (RandSingleton.getInstance().randSize <= RandSingleton.getInstance().randBoolOffset)
+                ) {
                     tvNumber.setText("Not enough bits in cache.");
+                    return;
+                }
+
+                bitCount = RandSingleton.getInstance().randSize- RandSingleton.getInstance().randBoolOffset;
+
+                if (optionCount == 2) {
+                    value = RandSingleton.getInstance().randBools.get(RandSingleton.getInstance().randBoolOffset) ? 1.0 : 0.0;
+                    RandSingleton.getInstance().randBoolOffset++;
+                }
+                else if (bitCount < 24) {
+                    tvNumber.setText("Not enough bits in cache.");
+                    return;
                 }
                 else {
                     double partSig = 0.5;
                     for (int i = 0; i < 24; i++) {
-                        if (RandSingleton.getInstance().randBools[RandSingleton.getInstance().randBoolOffset]) {
+                        if (RandSingleton.getInstance().randBools.get(RandSingleton.getInstance().randBoolOffset)) {
                             value += partSig;
                         }
                         partSig /= 2;
                         RandSingleton.getInstance().randBoolOffset++;
                     }
                 }
+
+                bitCount = RandSingleton.getInstance().randSize - RandSingleton.getInstance().randBoolOffset;
 
                 int selected = (int)(optionCount * value) + 1;
                 if (selected > optionCount) {
