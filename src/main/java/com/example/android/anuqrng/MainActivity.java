@@ -1,4 +1,4 @@
-package com.example.android.qrng;
+package com.example.android.anuqrng;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

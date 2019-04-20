@@ -1,4 +1,4 @@
-package com.example.android.qrng;
+package com.example.android.anuqrng;
 
 import java.io.*;
 import java.net.*;

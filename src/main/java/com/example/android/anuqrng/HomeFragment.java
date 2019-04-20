@@ -1,6 +1,5 @@
-package com.example.android.qrng;
+package com.example.android.anuqrng;
 
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,8 +13,6 @@ import android.widget.Toast;;
 
 import java.io.IOException;
 import java.util.BitSet;
-
-import static com.example.android.qrng.MainActivity.GET_BOOL_ARRAY;
 
 public class HomeFragment extends Fragment {
 
