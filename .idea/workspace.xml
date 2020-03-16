@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a582fece-1361-4aaa-86fd-207689dc8a6b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QRNG" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QRNG" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-849648589">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="268" />
+          <entry key="java" value="1286" />
+          <entry key="xml" value="231" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="268" />
+          <entry key="JAVA" value="1286" />
+          <entry key="XML" value="231" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="6" />
+          <entry key="java" value="23" />
+          <entry key="kt" value="1" />
+          <entry key="xml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="6" />
+          <entry key="JAVA" value="23" />
+          <entry key="Kotlin" value="1" />
+          <entry key="XML" value="19" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QRNG/src/main/java/com/example/android/qrng/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QRNG/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QRNG/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.JPEG</find>
+      <find>cance</find>
+      <find>(correc</find>
+      <find>y</find>
+      <find>mWidt</find>
+      <find>JPEG</find>
+      <find>YUV</find>
+      <find>JP</find>
+      <find>500</find>
+      <find>inter</find>
+      <find>mH</find>
+      <find>deriv</find>
+      <find>JPEG_OR</find>
+      <find>, 0</find>
+      <find>orientation</find>
+      <find>height</find>
+      <find>m</find>
+      <find>mHeight</find>
+      <find>Surface</find>
+      <find>mPicBy</find>
+      <find>picBy</find>
+      <find>mHeigh</find>
+      <find>timeCo</find>
+      <find>timeCorrec</find>
+      <find>timeMult</find>
+      <find>timeCorrectionOrder</find>
+      <find>timeCorr</find>
+      <find>time</find>
+      <find>timeCorre</find>
+      <find>http</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/AutoFitTextureView.java" />
+        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/template-styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/base-strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_camera.xml" />
+        <option value="$PROJECT_DIR$/tests/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout-land/fragment_camera2_basic.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_camera2_basic.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragmant_permute.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragmant_float.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/RandSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/FloatFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/PermuteFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/DiskFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/CameraActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_disk.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_float.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_permute.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anuqrng/generation/QuantumRandom.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/AnuRandom.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout-land/fragment_raw_file.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/Camera2BasicFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/RawFileFragment.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/menu/navigation.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/qrng/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="282" />
+    <option name="y" value="12" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QRNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="QRNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="qrng" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="zte-zte_a2017u-5d5e79db" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.android.qrng" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.profiler.active" value="true" />
+    <property name="android.project.structure.last.selected" value="QRNG" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/adt-bundle-windows-x86_64-20140702/sdk" />
+    <property name="device.picker.selection" value="5d5e79db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/QRNG" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.android.qrng" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jerse\Documents\QRNG\src\main\res\layout-land" />
+      <recent name="C:\Users\jerse\Documents\QRNG\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QRNG" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="QRNG" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a582fece-1361-4aaa-86fd-207689dc8a6b" name="Default" comment="" />
+      <created>1536715232190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536715232190</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="282" y="12" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.25373134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" sideWeight="0.5015674" side_tool="true" weight="0.17857143" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.34988454" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3253796" />
+      <window_info anchor="bottom" x="3" y="548" width="1876" height="300" id="Logcat" order="10" sideWeight="0.4989339" weight="0.32448035" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.3290993" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" sideWeight="0.5015674" side_tool="true" weight="0.17857143" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.34988454" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3253796" />
+      <window_info anchor="bottom" x="3" y="548" width="1876" height="300" id="Logcat" order="10" sideWeight="0.4989339" weight="0.3253796" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/template-dimens.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/values-sw600dp/template-dimens.xml" />
+    <entry file="file://$PROJECT_DIR$/tests/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout-land/fragment_camera2_basic.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_camera2_basic.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/menu_main.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/FloatFragment.java" />
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/media/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/media/ImageReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/os/HandlerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104312">
+          <caret line="6217" selection-start-line="6217" selection-end-line="6217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/os/BaseBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14569">
+          <caret line="906" selection-start-line="906" selection-end-line="906" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_camera.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_disk.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_float.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/example.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/PermuteFragment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anuqrng/generation/QuantumRandom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anuqrng/generation/Generation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anuqrng/generation/BufferedByteFetcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anuqrng/generation/GenerationUtil.java" />
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/hardware/camera2/CameraManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6834">
+          <caret line="440" selection-start-line="440" selection-end-line="440" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/27.1.1/fe233277b6eae25ce5b2afab6daf55d73c86f0b9/support-compat-27.1.1-sources.jar!/android/support/v4/content/ContextCompat.java" />
+    <entry file="file://$PROJECT_DIR$/local.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/AnuRandom.java" />
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9588">
+          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/graphics/SurfaceTexture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5865">
+          <caret line="379" selection-start-line="379" selection-end-line="379" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-27/android/os/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8755">
+          <caret line="542" selection-start-line="542" selection-end-line="542" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/AutoFitTextureView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/obsez/android/lib/filechooser/demo/demo/Demo.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/obsez/android/lib/filechooser/demo/ChooseFileActivityFragment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout-land/fragment_raw_file.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_raw_file.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/RawFileFragment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/CameraActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/navigation.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/DiskFragment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/Camera2BasicFragment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/Util.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/RandSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/HomeFragment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_permute.xml" />
+    <entry file="file://$PROJECT_DIR$/QRNG/src/main/java/com/example/android/qrng/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QRNG/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QRNG/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>QRNG</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
