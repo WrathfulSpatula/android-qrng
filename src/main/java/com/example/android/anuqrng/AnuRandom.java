@@ -148,8 +148,8 @@ public class AnuRandom{
 		int start;
 		int end;
 
-		start = this.page.indexOf("<table class=\"rng\" cellpadding=\"10\"> <tr><td>");
-		end = this.page.indexOf("</td></tr></table><br />", start);
+		start = this.page.indexOf("<div id=\"dataHere\" class=\"alpha_blocks\">");
+		end = this.page.indexOf("</div>", start);
 		start += 45;
 
 		this.bytes = this.page.substring(start, end);
