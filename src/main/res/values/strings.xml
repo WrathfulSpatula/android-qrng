@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="sp_settings_key">SHARED_PREFERENCES_SETTINGS</string>
+    <string name="sp_space_deriv_key">SHARED_PREFERENCES_SPATIAL_DERIVATIVE_COUNT</string>
+    <string name="sp_time_deriv_key">SHARED_PREFERENCES_TIME_DERIVATIVE_COUNT</string>
+    <string name="sp_time_mult_key">SHARED_PREFERENCES_TIME_MULTIPLE_COUNT</string>
+    <string name="sp_do_hash_key">SHARED_PREFERENCES_DO_HASH</string>
+    <string name="sp_do_control_key">SHARED_PREFERENCES_DO_CONTROL</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_float">Float</string>
+    <string name="title_permute">Permute</string>
+    <string name="title_disk">Disk</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="float_btn">Draw</string>
+    <string name="permute_btn">Select</string>
+    <string name="disk_btn">Save</string>
+    <string name="disk_repeat_btn">Generate</string>
+    <string name="request_btn">Request</string>
+    <string name="purify_btn">Purify</string>
+
+    <string name="label_space_deriv">Spatial Derivatives</string>
+    <string name="label_time_deriv">Time Derivatives</string>
+    <string name="label_time_mult">Time Multiple</string>
+    <string name="label_hash">Hashing?</string>
+    <string name="label_control">Control?</string>
+    <string name="save_btn">Save</string>
+
+    <string name="pick_raw_file">Pick DNG</string>
+    <string name="pick_processed">Pick QRB</string>
+    <string name="load_processed">Load QRB</string>
+    <string name="process_raw_file">Process DNG</string>
+</resources>
