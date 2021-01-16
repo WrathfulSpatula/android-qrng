@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jerse\\Documents\\GitHub\\android-qrng\\QRNG\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\jerse\\Documents\\GitHub\\android-qrng\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\jerse\\Documents\\GitHub\\android-qrng\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "697",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "774"
+                    },
+                    "to": {
+                        "startLines": "283",
+                        "startColumns": "4",
+                        "startOffsets": "20732",
+                        "endLines": "284",
+                        "endColumns": "12",
+                        "endOffsets": "20808"
+                    }
+                },
                 {
                     "source": "C:\\Users\\jerse\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\060e9e52f1f18303afe9b9dead1185d4\\res\\values-v21\\values-v21.xml",
                     "from": {
@@ -20,25 +39,6 @@
                         "endLines": "271,274,278,282",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "19975,20138,20432,20727"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jerse\\Documents\\GitHub\\android-qrng\\QRNG\\src\\main\\res\\values-v21\\base-template-styles.xml",
-                    "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "697",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "774"
-                    },
-                    "to": {
-                        "startLines": "283",
-                        "startColumns": "4",
-                        "startOffsets": "20732",
-                        "endLines": "284",
-                        "endColumns": "12",
-                        "endOffsets": "20808"
                     }
                 },
                 {

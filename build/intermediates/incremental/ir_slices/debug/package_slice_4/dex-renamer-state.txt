@@ -1,4 +1,0 @@
-#Wed Feb 05 20:29:44 EST 2020
-base.0=C\:\\Users\\jerse\\Documents\\QRNG\\QRNG\\build\\intermediates\\transforms\\dexMerger\\debug\\4
-path.0=classes.dex
-renamed.0=classes.dex

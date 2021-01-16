@@ -12,6 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[9A211FFAZ0016A]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -36,30 +37,28 @@
       </list>
     </option>
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\jerse\Documents\GitHub\android-qrng\QRNG\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1fNX9bOWtepmoHT23hcvue5NA1f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/jerse/Documents/GitHub/android-qrng/src/main/java/com/example/android/qrng/AutoFitTextureView.java_SELECTED" value="AutoFitTextureView" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/android" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/jerse/Documents/GitHub/android-qrng/src/main/java/com/example/android/qrng/AutoFitTextureView.java_selected" value="Custom views" />
     <property name="recommended.upgrade.last.time.stamp" value="1598842574896" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.android.qrng" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jerse\Documents\GitHub\android-qrng\QRNG\src\main" />
     </key>
@@ -79,6 +78,7 @@
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -114,22 +114,28 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="android-qrng" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="android-qrng" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="android-qrng" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -165,11 +171,16 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -194,38 +205,26 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="243" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598842527447">
+    <state x="743" y="383" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610765538791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="243" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598842527447" />
-    <state x="566" y="271" width="403" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596234678408">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="271" width="403" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1596234678408" />
-    <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1596217770216">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1596217770216" />
-    <state width="1690" height="320" key="GridCell.Tab.0.bottom" timestamp="1603812176926">
+    <state x="743" y="383" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1610765538791" />
+    <state width="1690" height="259" key="GridCell.Tab.0.bottom" timestamp="1610765778090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596238975421" />
-    <state width="1690" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603812176926" />
-    <state width="1690" height="320" key="GridCell.Tab.0.center" timestamp="1603812176926">
+    <state width="1690" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610765778090" />
+    <state width="1690" height="259" key="GridCell.Tab.0.center" timestamp="1610765778089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596238975421" />
-    <state width="1690" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603812176926" />
-    <state width="1690" height="320" key="GridCell.Tab.0.left" timestamp="1603812176926">
+    <state width="1690" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610765778089" />
+    <state width="1690" height="259" key="GridCell.Tab.0.left" timestamp="1610765778089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596238975421" />
-    <state width="1690" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603812176926" />
-    <state width="1690" height="320" key="GridCell.Tab.0.right" timestamp="1603812176926">
+    <state width="1690" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610765778089" />
+    <state width="1690" height="259" key="GridCell.Tab.0.right" timestamp="1610765778090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596238975421" />
-    <state width="1690" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603812176926" />
+    <state width="1690" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610765778090" />
     <state width="1690" height="320" key="GridCell.Tab.1.bottom" timestamp="1603812176926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -245,27 +244,18 @@
     <state x="346" y="69" key="SettingsEditor" timestamp="1603812308385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597452471414" />
     <state x="346" y="69" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603812308385" />
     <state width="875" height="490" key="XDebugger.FullValuePopup" timestamp="1603812030044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="875" height="490" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1603812030044" />
-    <state x="581" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1598842586154">
+    <state x="776" y="292" key="chooseDestDirectoryDialog" timestamp="1610765521094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597452462047" />
-    <state x="581" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598842586154" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/android/qrng/AnuRandom.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="776" y="292" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610765521094" />
+    <state x="666" y="248" width="587" height="534" key="find.popup" timestamp="1610765466836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="248" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610765466836" />
   </component>
 </project>
