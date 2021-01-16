@@ -122,7 +122,7 @@ public class AnuRandom{
 	@SuppressWarnings("deprecation")
 	public void getPage() throws MalformedURLException, IOException {
 		try{
-			URL u = new URL("https://qrng.anu.edu.au/random-block-hex/");
+			URL u = new URL("https://qrng.anu.edu.au/wp-content/plugins/colours-plugin/get_block_hex.php");
 			this.in = new DataInputStream(new BufferedInputStream(u.openStream()));
 			String temp = "";
 			while ((temp = this.in.readLine()) != null){
@@ -144,15 +144,6 @@ public class AnuRandom{
 	Parses the random bytes from the webpage.
 	*/
 	public void parsePage(){
-
-		int start;
-		int end;
-
-		start = this.page.indexOf("<div id=\"dataHere\" class=\"alpha_blocks\">");
-		end = this.page.indexOf("</div>", start);
-		start += 45;
-
-		this.bytes = this.page.substring(start, end);
-
+		this.bytes = this.page;
 	}
 }
