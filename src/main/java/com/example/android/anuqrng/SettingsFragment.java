@@ -42,20 +42,17 @@ public class SettingsFragment extends Fragment {
         SharedPreferences sharedPref = context.getSharedPreferences(
                 getString(R.string.sp_settings_key), Context.MODE_PRIVATE);
         int sd = sharedPref.getInt(getString(R.string.sp_space_deriv_key), 5);
-        int td = sharedPref.getInt(getString(R.string.sp_time_deriv_key), 1);
         int tm = sharedPref.getInt(getString(R.string.sp_time_mult_key), 1);
         boolean doHash = sharedPref.getBoolean(getString(R.string.sp_do_hash_key), true);
         boolean doControl = sharedPref.getBoolean(getString(R.string.sp_do_control_key), false);
 
 
         final EditText etSpace = (EditText) mView.findViewById(R.id.etSpace);
-        final EditText etTime = (EditText) mView.findViewById(R.id.etTime);
         final EditText etTimeMult = (EditText) mView.findViewById(R.id.etTimeMult);
         final Switch swHash = (Switch) mView.findViewById(R.id.swHash);
         final Switch swControl = (Switch) mView.findViewById(R.id.swControl);
 
         etSpace.setText(Integer.toString(sd));
-        etTime.setText(Integer.toString(td));
         etTimeMult.setText(Integer.toString(tm));
         swHash.setChecked(doHash);
         swControl.setChecked(doControl);
@@ -65,14 +62,12 @@ public class SettingsFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 String sdStr = etSpace.getText().toString();
-                String tdStr = etTime.getText().toString();
                 String tmStr = etTimeMult.getText().toString();
                 boolean doHash = swHash.isChecked();
                 boolean doControl = swControl.isChecked();
                 int sd, td, tm;
                 try {
                     sd = Integer.parseInt(sdStr);
-                    td = Integer.parseInt(tdStr);
                     tm = Integer.parseInt(tmStr);
                 }
                 catch (Error e) {
@@ -85,7 +80,6 @@ public class SettingsFragment extends Fragment {
                         getString(R.string.sp_settings_key), Context.MODE_PRIVATE);
                 SharedPreferences.Editor spEdit = sharedPref.edit();
                 spEdit.putInt(getString(R.string.sp_space_deriv_key), sd);
-                spEdit.putInt(getString(R.string.sp_time_deriv_key), td);
                 spEdit.putInt(getString(R.string.sp_time_mult_key), tm);
                 spEdit.putBoolean(getString(R.string.sp_do_hash_key), doHash);
                 spEdit.putBoolean(getString(R.string.sp_do_control_key), doControl);

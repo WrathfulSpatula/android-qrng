@@ -1285,7 +1285,6 @@ id enterAlwaysCollapsed
 id etBitCount
 id etOptionCount
 id etSpace
-id etTime
 id etTimeMult
 id exitUntilCollapsed
 id expand_activities_button
@@ -1465,7 +1464,6 @@ id tvControl
 id tvHash
 id tvNumber
 id tvSpace
-id tvTime
 id tvTimeMult
 id uniform
 id unlabeled

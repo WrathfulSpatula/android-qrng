@@ -91,7 +91,6 @@ public class Camera2BasicFragment extends Fragment
     /**
      * These are overridden by shared preferences:
      */
-    private int timeCorrectionOrder = 1;
     private int spaceCorrectionOrder = 5;
     private int timeMultiple = 1;
     private boolean doHash = true;
@@ -288,7 +287,7 @@ public class Camera2BasicFragment extends Fragment
         @Override
         public void onImageAvailable(ImageReader reader) {
             int index = picIndex.getAndIncrement();
-            if (index == (((1<<timeCorrectionOrder) * timeMultiple) - 1)) {
+            if (index == (timeMultiple - 1)) {
                 isTakingPicture.set(0);
             } else if (index >= picMillis.length) {
                 return;
@@ -298,7 +297,7 @@ public class Camera2BasicFragment extends Fragment
                 @Override
                 public void callback() {
                     int finishedCount = picFinishedIndex.incrementAndGet();
-                    if (finishedCount >= ((1<<timeCorrectionOrder) * timeMultiple)) {
+                    if (finishedCount >= timeMultiple) {
                         try {
                             mCaptureSession.stopRepeating();
                             mCaptureSession.abortCaptures();
@@ -309,10 +308,10 @@ public class Camera2BasicFragment extends Fragment
                         picFinishedIndex.set(0);
 
                         TreeMap<Long, byte[]> picMap = new TreeMap<>();
-                        for (int i = 0; i < ((1<<timeCorrectionOrder) * timeMultiple); i++) {
+                        for (int i = 0; i < timeMultiple; i++) {
                             picMap.put(picMillis[i], picBytes[i]);
                         }
-                        byte[][] sortedPicBytes = picMap.values().toArray(new byte[(1<<timeCorrectionOrder) * timeMultiple][]);
+                        byte[][] sortedPicBytes = picMap.values().toArray(new byte[timeMultiple][]);
 
                         picBytes = null;
                         Runtime.getRuntime().gc();
@@ -348,7 +347,7 @@ public class Camera2BasicFragment extends Fragment
                                             ResetCamera();
                                         }
                                     }
-                                }, (cancelWait * (1<<timeCorrectionOrder) * timeMultiple) + 2000 + resetWait);
+                                }, cancelWait * timeMultiple + 2000 + resetWait);
                             } else {
                                 showToast("Disk I/O error.");
                                 unlockFocus();
@@ -578,12 +577,11 @@ public class Camera2BasicFragment extends Fragment
         SharedPreferences sharedPref = context.getSharedPreferences(
                 getString(R.string.sp_settings_key), Context.MODE_PRIVATE);
         spaceCorrectionOrder = sharedPref.getInt(getString(R.string.sp_space_deriv_key), 5);
-        timeCorrectionOrder = sharedPref.getInt(getString(R.string.sp_time_deriv_key), 1);
         timeMultiple = sharedPref.getInt(getString(R.string.sp_time_mult_key), 1);
         doHash = sharedPref.getBoolean(getString(R.string.sp_do_hash_key), true);
         doControl = sharedPref.getBoolean(getString(R.string.sp_do_control_key), false);
 
-        rowStrides = new int[(1 << timeCorrectionOrder) * timeMultiple];
+        rowStrides = new int[timeMultiple];
     }
 
     @Override
@@ -612,7 +610,7 @@ public class Camera2BasicFragment extends Fragment
     }
 
     private void ControlCallback() {
-        byte[][] sortedPicBytes = new byte[(1 << timeCorrectionOrder) * timeMultiple][];
+        byte[][] sortedPicBytes = new byte[timeMultiple][];
         for (int i = 0; i < sortedPicBytes.length; i++) {
             sortedPicBytes[i] = new byte[mHeight * mWidth];
             new Random().nextBytes(sortedPicBytes[i]);
@@ -677,7 +675,7 @@ public class Camera2BasicFragment extends Fragment
                             ResetCamera();
                         }
                     }
-                }, (cancelWait * (1<<timeCorrectionOrder) * timeMultiple) + 2000 + resetWait);
+                }, (cancelWait * timeMultiple) + 2000 + resetWait);
             }
 
             isResettingCamera.set(0);
@@ -739,6 +737,7 @@ public class Camera2BasicFragment extends Fragment
                 Size largest = Collections.max(
                         Arrays.asList(map.getOutputSizes(ImageFormat.RAW_SENSOR)),
                         new CompareSizesByArea());
+                Log.d(TAG, "LARGEST RAW: " + largest.toString());
                 ImageReader imageReader = ImageReader.newInstance(largest.getWidth(), largest.getHeight(),
                         ImageFormat.RAW_SENSOR, 1);
                 //mBitsPerPixel = ImageFormat.getBitsPerPixel(ImageFormat.RAW12);
@@ -1114,8 +1113,8 @@ public class Camera2BasicFragment extends Fragment
             mCaptureSession.abortCaptures();
             picIndex.set(0);
             picFinishedIndex.set(0);
-            picMillis = new long[(1<<timeCorrectionOrder) * timeMultiple];
-            picBytes = new byte[(1<<timeCorrectionOrder) * timeMultiple][];
+            picMillis = new long[timeMultiple];
+            picBytes = new byte[timeMultiple][];
 
             mCaptureSession.setRepeatingRequest(captureBuilder.build(), null, null);
         } catch (CameraAccessException e) {
@@ -1179,7 +1178,7 @@ public class Camera2BasicFragment extends Fragment
                                 ResetCamera();
                             }
                         }
-                    }, (cancelWait * (1<<timeCorrectionOrder) * timeMultiple) + 2000);
+                    }, (cancelWait * timeMultiple) + 2000);
 
                     takePicture();
                 }
@@ -1362,7 +1361,7 @@ public class Camera2BasicFragment extends Fragment
         int hbBlockHeight, wbBlockWidth;
         double mn;
         for (int frame = 0; frame < interIn.length; frame++) {
-            short[] interOut = new short[sz];
+            short[] interOut = new short[maxSz];
             for (hb = 0; hb < heightBlocks; hb++) {
                 hbBlockHeight = hb * blockHeight;
                 for (wb = 0; wb < widthBlocks; wb++) {
@@ -1441,24 +1440,6 @@ public class Camera2BasicFragment extends Fragment
         height >>= (spaceCorrectionOrder - 1);
         sz = width * height;
 
-        // Time derivative:
-        int pixPtr;
-        for (int deriv = 1; deriv < timeCorrectionOrder; deriv++) {
-            int groupCount = (interIn.length) >> 1;
-            short[][] interOut = new short[groupCount][];
-            int groupCountX2 = groupCount * 2;
-            for (group = 0; group < groupCountX2; group+=2) {
-                short[] f1 = interIn[group];
-                short[] f2 = interIn[group + 1];
-                short[] drv = new short[sz];
-                for (pixPtr = 0; pixPtr < sz; pixPtr++) {
-                    drv[pixPtr] = (short) (f1[pixPtr] ^ f2[pixPtr]);
-                }
-                interOut[group] = drv;
-            }
-            interIn = interOut;
-        }
-
         // Bit derivatives:
         int mask1 = 0x55555555;
         int mask2 = ~mask1;
@@ -1482,31 +1463,16 @@ public class Camera2BasicFragment extends Fragment
             }
         }
 
-        if (timeCorrectionOrder == 0) {
-            short[][] interOut = new short[interIn.length][];
-            for (time = 0; time < interIn.length; time++) {
-                short[] drv = new short[sz / 2];
-                for (int i = 0; i < sz / 2; i++) {
-                    drv[i] = (short) ((interIn[time][i * 2] == interIn[time][i * 2 + 1]) ? 0 : 1);
-                }
-                interOut[time] = drv;
+        short[][] interOut = new short[interIn.length][];
+        for (time = 0; time < interIn.length; time++) {
+            short[] drv = new short[sz / 2];
+            for (int i = 0; i < sz / 2; i++) {
+                drv[i] = (short) ((interIn[time][i * 2] == interIn[time][i * 2 + 1]) ? 0 : 1);
             }
-            interIn = interOut;
-            sz /= 2;
-        } else {
-            int groupCount = (interIn.length) >> 1;
-            short[][] interOut = new short[groupCount][];
-            for (group = 0; group < groupCount; group++) {
-                short[] f1 = interIn[group * 2];
-                short[] f2 = interIn[group * 2 + 1];
-                short[] drv = new short[sz];
-                for (pixPtr = 0; pixPtr < sz; pixPtr++) {
-                    drv[pixPtr] = (short) ((f1[pixPtr] == f2[pixPtr]) ? 0 : 1);
-                }
-                interOut[group] = drv;
-            }
-            interIn = interOut;
+            interOut[time] = drv;
         }
+        interIn = interOut;
+        sz /= 2;
 
         BitSet bitsOut = new BitSet(interIn.length * interIn[0].length);
 

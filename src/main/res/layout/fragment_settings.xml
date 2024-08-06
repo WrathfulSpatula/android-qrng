@@ -32,26 +32,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView android:text="@string/label_time_deriv" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/etSpace"
-        android:textSize="16dp"
-        android:id="@+id/tvTime"/>
-
-    <EditText
-        android:id="@+id/etTime"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_below="@+id/tvTime"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <TextView android:text="@string/label_time_mult" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/etTime"
+        android:layout_below="@+id/etSpace"
         android:textSize="16dp"
         android:id="@+id/tvTimeMult"/>
 
