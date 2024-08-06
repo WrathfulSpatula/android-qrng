@@ -1,0 +1,7 @@
+#Tue Aug 06 09:42:37 EDT 2024
+base.0=/home/iamu/GitHub/android-qrng/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.1=/home/iamu/GitHub/android-qrng/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/9/classes.dex
+path.0=0/classes.dex
+path.1=9/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

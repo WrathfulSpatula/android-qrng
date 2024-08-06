@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_info.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-xxhdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_activity_camera.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/menu_navigation.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_fragment_float.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/fragment_float.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_fragment_permute.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/fragment_permute.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_info.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-hdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_info.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-mdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_info.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-xhdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_fragment_disk.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/fragment_disk.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_fragment_camera2_basic.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/fragment_camera2_basic.xml"
+    },
+    {
+        "merged": "/home/iamu/GitHub/android-qrng/build/intermediates/res/merged/debug/layout_fragment_settings.xml.flat",
+        "source": "/home/iamu/GitHub/android-qrng/src/main/res/layout/fragment_settings.xml"
+    }
+]

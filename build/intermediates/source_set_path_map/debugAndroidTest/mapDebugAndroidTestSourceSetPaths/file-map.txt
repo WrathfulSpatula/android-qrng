@@ -1,0 +1,4 @@
+com.example.android.anuqrng.test-androidTest-0 /home/iamu/GitHub/android-qrng/build/generated/res/resValues/androidTest/debug
+com.example.android.anuqrng.test-mergeDebugAndroidTestResources-1 /home/iamu/GitHub/android-qrng/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.android.anuqrng.test-mergeDebugAndroidTestResources-2 /home/iamu/GitHub/android-qrng/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.android.anuqrng.test-debugAndroidTest-3 /home/iamu/GitHub/android-qrng/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,7 +1,10 @@
-#Fri Jan 15 21:57:01 EST 2021
-base.0=C\:\\Users\\jerse\\Documents\\GitHub\\android-qrng\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
-path.1=classes.dex
-renamed.1=classes2.dex
+#Tue Aug 06 10:29:34 EDT 2024
+base.0=/home/iamu/GitHub/android-qrng/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/iamu/GitHub/android-qrng/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/iamu/GitHub/android-qrng/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=6/classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\jerse\\Documents\\GitHub\\android-qrng\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+renamed.1=classes2.dex
+renamed.2=classes3.dex
