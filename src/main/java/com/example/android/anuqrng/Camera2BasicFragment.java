@@ -1494,20 +1494,27 @@ public class Camera2BasicFragment extends Fragment
 
         if (doHash) {
             byte[] bytesAll = bitsOut.toByteArray();
-            byte[] bytesInOut = new byte[64];
-            try {
-                for (int i = 0; i < (bytesAll.length - 63); i += 64) {
-                    System.arraycopy(bytesAll, 0, bytesInOut, 0, 64);
+            if (bytesAll.length < 64) {
+                showToast("Hash needs >=4096");
+            } else {
+                int maxPages = bytesAll.length / 64;
+                int perPage = bytesAll.length / maxPages;
+                byte[] bytesInOut = new byte[perPage];
+                byte[] nBytesAll = new byte[maxPages * 64];
+                try {
+                    for (int i = 0; i < maxPages; ++i) {
+                        System.arraycopy(bytesAll, i * perPage, bytesInOut, 0, perPage);
 
-                    MessageDigest md = MessageDigest.getInstance("SHA-512");
-                    md.update(bytesInOut);
-                    bytesInOut = md.digest();
+                        MessageDigest md = MessageDigest.getInstance("SHA-512");
+                        md.update(bytesInOut);
+                        bytesInOut = md.digest();
 
-                    System.arraycopy(bytesInOut, 0, bytesAll, 0, 64);
+                        System.arraycopy(bytesInOut, 0, nBytesAll, i * 64, 64);
+                    }
+                    bitsOut = BitSet.valueOf(nBytesAll);
+                } catch (Exception e) {
+                    Log.d("QRNG hash", "Hashing final output failed.");
                 }
-                bitsOut = BitSet.valueOf(bytesAll);
-            } catch (Exception e) {
-                Log.d("QRNG hash", "Hashing final output failed.");
             }
         }
 
