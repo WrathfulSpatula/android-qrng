@@ -1283,7 +1283,9 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etBitCount
+id etCancelWait
 id etOptionCount
+id etResetWait
 id etSpace
 id etTimeMult
 id exitUntilCollapsed
@@ -1460,9 +1462,11 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvCache
+id tvCancelWait
 id tvControl
 id tvHash
 id tvNumber
+id tvResetWait
 id tvSpace
 id tvTimeMult
 id uniform
@@ -1619,8 +1623,10 @@ string fab_transformation_sheet_behavior
 string float_btn
 string hide_bottom_view_on_scroll_behavior
 string intro_message
+string label_cancel_wait
 string label_control
 string label_hash
+string label_reset_wait
 string label_space_deriv
 string label_time_deriv
 string label_time_mult
@@ -1641,11 +1647,12 @@ string request_btn
 string request_permission
 string save_btn
 string search_menu_title
+string sp_cancel_wait_key
 string sp_do_control_key
 string sp_do_hash_key
+string sp_reset_wait_key
 string sp_settings_key
 string sp_space_deriv_key
-string sp_time_deriv_key
 string sp_time_mult_key
 string status_bar_notification_info_overflow
 string title_disk

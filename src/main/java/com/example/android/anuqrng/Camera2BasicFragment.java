@@ -93,6 +93,8 @@ public class Camera2BasicFragment extends Fragment
      */
     private int spaceCorrectionOrder = 5;
     private int timeMultiple = 1;
+    private static int resetWait = 2000;
+    private static int cancelWait = 100;
     private boolean doHash = true;
     private boolean doControl = false;
 
@@ -265,11 +267,6 @@ public class Camera2BasicFragment extends Fragment
     private AtomicInteger isTakingPicture;
     private AtomicInteger isResettingCamera;
 
-    /**
-     * For auto-generation, reset parameters:
-     */
-    private static final int resetWait = 2000;
-    private static final int cancelWait = 100;
 
     /**
      * Image width and height
@@ -286,6 +283,9 @@ public class Camera2BasicFragment extends Fragment
 
         @Override
         public void onImageAvailable(ImageReader reader) {
+            // For auto-generation, reset parameters:
+            int resetWait = 2000;
+            int cancelWait = 100;
             int index = picIndex.getAndIncrement();
             if (index == (timeMultiple - 1)) {
                 isTakingPicture.set(0);
@@ -578,6 +578,8 @@ public class Camera2BasicFragment extends Fragment
                 getString(R.string.sp_settings_key), Context.MODE_PRIVATE);
         spaceCorrectionOrder = sharedPref.getInt(getString(R.string.sp_space_deriv_key), 5);
         timeMultiple = sharedPref.getInt(getString(R.string.sp_time_mult_key), 1);
+        resetWait = sharedPref.getInt(getString(R.string.sp_reset_wait_key), 2000);
+        cancelWait = sharedPref.getInt(getString(R.string.sp_cancel_wait_key), 100);
         doHash = sharedPref.getBoolean(getString(R.string.sp_do_hash_key), true);
         doControl = sharedPref.getBoolean(getString(R.string.sp_do_control_key), false);
 

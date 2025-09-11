@@ -48,10 +48,42 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView android:text="@string/label_hash" android:layout_width="wrap_content"
+    <TextView android:text="@string/label_reset_wait" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/etTimeMult"
+        android:textSize="16dp"
+        android:id="@+id/tvResetWait"/>
+
+    <EditText
+        android:id="@+id/etResetWait"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvResetWait"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:inputType="number" />
+
+    <TextView android:text="@string/label_cancel_wait" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etResetWait"
+        android:textSize="16dp"
+        android:id="@+id/tvCancelWait"/>
+
+    <EditText
+        android:id="@+id/etCancelWait"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCancelWait"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:inputType="number" />
+
+    <TextView android:text="@string/label_hash" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etCancelWait"
         android:textSize="16dp"
         android:id="@+id/tvHash"/>
 

@@ -16,8 +16,9 @@
 <resources>
     <string name="sp_settings_key">SHARED_PREFERENCES_SETTINGS</string>
     <string name="sp_space_deriv_key">SHARED_PREFERENCES_SPATIAL_DERIVATIVE_COUNT</string>
-    <string name="sp_time_deriv_key">SHARED_PREFERENCES_TIME_DERIVATIVE_COUNT</string>
     <string name="sp_time_mult_key">SHARED_PREFERENCES_TIME_MULTIPLE_COUNT</string>
+    <string name="sp_reset_wait_key">SHARED_PREFERENCES_RESET_WAIT_KEY</string>
+    <string name="sp_cancel_wait_key">SHARED_PREFERENCES_CANCEL_WAIT_KEY</string>
     <string name="sp_do_hash_key">SHARED_PREFERENCES_DO_HASH</string>
     <string name="sp_do_control_key">SHARED_PREFERENCES_DO_CONTROL</string>
 
@@ -42,6 +43,8 @@
     <string name="label_space_deriv">Spatial Derivatives</string>
     <string name="label_time_deriv">Time Derivatives</string>
     <string name="label_time_mult">Time Multiple</string>
+    <string name="label_reset_wait">Reset Wait (ms)</string>
+    <string name="label_cancel_wait">Cancel Wait (ms)</string>
     <string name="label_hash">Hashing?</string>
     <string name="label_control">Control?</string>
     <string name="save_btn">Save</string>
