@@ -1,6 +1,6 @@
 package com.example.android.anuqrng;
 
-import android.os.Environment;
+import android.content.Context;
 import android.util.Log;
 
 import java.io.File;
@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Util {
-    public static int SaveToDisk() {
+    public static int SaveToDisk(Context context) {
         int toRet = 0;
 
         int bitCount = 0;
@@ -30,10 +30,7 @@ public class Util {
 
         FileOutputStream fileOutputStream = null;
         try {
-            File mDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/qrng");
-            mDir.mkdirs();
-            File mFile = new File(mDir, "q" + Long.toString(System.currentTimeMillis()).toString() + ".rnd");
-            mFile.createNewFile();
+            File mFile = new File(context.getCacheDir() + "q" + System.currentTimeMillis() + ".rnd");
             fileOutputStream = new FileOutputStream(mFile);
             fileOutputStream.write(outputBytes);
         } catch (FileNotFoundException e) {

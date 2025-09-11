@@ -326,7 +326,7 @@ public class Camera2BasicFragment extends Fragment
                         showToast("Finished Processing");
 
                         if (generateLength > 0) {
-                            if (Util.SaveToDisk() == 0) {
+                            if (Util.SaveToDisk(getContext()) == 0) {
                                 generateLength -= RandSingleton.getInstance().randSize;
                                 isTakingPicture.set(1);
                                 final Handler handler1 = new Handler();
@@ -624,7 +624,7 @@ public class Camera2BasicFragment extends Fragment
         RandSingleton.getInstance().randBoolOffset = 0;
 
         if (generateLength > 0) {
-            if (Util.SaveToDisk() == 0) {
+            if (Util.SaveToDisk(getContext()) == 0) {
                 generateLength -= RandSingleton.getInstance().randSize;
             } else {
                 showToast("Disk I/O error.");

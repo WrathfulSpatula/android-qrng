@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.anuqrng-mergeDebugResources-11:/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/home/iamu/GitHub/android-qrng/src/main/res/values-v11/template-styles.xml",
+                    "source": "/home/iamu/android-qrng/src/main/res/values-v11/template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",

@@ -27,26 +27,26 @@ public class DiskFragment extends Fragment {
 
         mainActivity = (MainActivity)getActivity();
 
-        final TextView tvCache = (TextView) mView.findViewById(R.id.tvCache);
+        final TextView tvCache = mView.findViewById(R.id.tvCache);
         int bitCount = 0;
         if (RandSingleton.getInstance().randBools != null) {
             bitCount = RandSingleton.getInstance().randSize - RandSingleton.getInstance().randBoolOffset;
         }
-        tvCache.setText(Integer.toString(bitCount) + " bits in cache");
+        tvCache.setText(String.format("%d bits in cache", bitCount));
 
-        Button btnDisk = (Button) mView.findViewById(R.id.btn_disk);
+        Button btnDisk = mView.findViewById(R.id.btn_disk);
         btnDisk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Util.SaveToDisk();
+                Util.SaveToDisk(getContext());
                 tvCache.setText("0 bits in cache");
             }
         });
 
-        final EditText etBitCount = (EditText) mView.findViewById(R.id.etBitCount);
+        final EditText etBitCount = mView.findViewById(R.id.etBitCount);
         etBitCount.setText("1006632960");
 
-        Button btnDiskRepeat = (Button) mView.findViewById(R.id.btn_disk_repeat);
+        Button btnDiskRepeat = mView.findViewById(R.id.btn_disk_repeat);
         btnDiskRepeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

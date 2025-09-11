@@ -1,187 +1,183 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:18:1-46:12
-INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:18:1-46:12
-MERGED from [com.android.support:support-v13:28.0.0] /home/iamu/.gradle/caches/transforms-4/7d4a72d5a84b6164e74124382e727696/transformed/support-v13-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:28.0.0] /home/iamu/.gradle/caches/transforms-4/8e4801cb4cef775a8ec9fcbb98f92955/transformed/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/transforms-4/22f5c80f164a6192caddd6fab6382f49/transformed/design-28.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/f8eeb1b21953da26809fa7bf850b5354/transformed/cardview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/transforms-4/5b75e7e0be0bcca1848a24ad6ecbfe19/transformed/constraint-layout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/77f98af70890fb7116a6c18318fba125/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/53bb4eb208c6a4757acafedf7f337327/transformed/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/iamu/.gradle/caches/transforms-4/d027bb506d7635f0210d407f4034ada2/transformed/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamu/.gradle/caches/transforms-4/a41e81d104231c7aa56b6b5bebafbdf7/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/0e6c498bd09266f871d98b97d5b8cad1/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/iamu/.gradle/caches/transforms-4/0b6d62c2ee513995808a40a087af8db0/transformed/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/iamu/.gradle/caches/transforms-4/3f184e9fc11d62025f0deea5bd1a4169/transformed/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/iamu/.gradle/caches/transforms-4/fa06edcb3379bf184224bdf32291c9d7/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /home/iamu/.gradle/caches/transforms-4/049d55db8060864297772c2a4b8c84ad/transformed/transition-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/iamu/.gradle/caches/transforms-4/e48876c5857bd320f8fcb2ec6778d2aa/transformed/loader-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/iamu/.gradle/caches/transforms-4/cd832ceda828315b3d2a51510075b85d/transformed/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/4b2d275770277d35d1093a5af5587f48/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/d7c3559a106fde0f9d18ab69e9ea0c89/transformed/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/b408ae7c0a1337c37f18029dca3fc808/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/iamu/.gradle/caches/transforms-4/a0eaedd1c0cd60820e2a7164c29b38bf/transformed/customview-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/61d313cc4251dff82421aec3f6dfd882/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/iamu/.gradle/caches/transforms-4/2d7a8bc6c296a5a2b4daa2dd8240305e/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/f03f21938166e3983686b731ffb9787a/transformed/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/transforms-4/b0a1ca914bd8461ac47685eb8951f86d/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamu/.gradle/caches/transforms-4/697da02afd1eeb6a83db39dad8901278/transformed/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamu/.gradle/caches/transforms-4/55227bfe16fd217c742a647ce4fb024e/transformed/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/iamu/.gradle/caches/transforms-4/82acf0a82ecb11776fee0201e678d74c/transformed/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamu/.gradle/caches/transforms-4/6e6bebaedbebec00677dca5a66f14cf6/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/iamu/.gradle/caches/transforms-4/7ae06bd8863103833ef96848dbca1106/transformed/print-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/iamu/.gradle/caches/transforms-4/9fbfc8429c7f8ee06493ad2a9b116378/transformed/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamu/.gradle/caches/transforms-4/0aecc767c65a86ee8176656092f9c602/transformed/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/iamu/.gradle/caches/transforms-4/ba41bdc8db49b8e86d7550ebd9146e47/transformed/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamu/.gradle/caches/transforms-4/6a5dc786f85c001696451b5415b91306/transformed/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/iamu/.gradle/caches/transforms-4/b17b025be5b372a151f2402c1f236c04/transformed/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:18:1-45:12
+INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:18:1-45:12
+MERGED from [com.android.support:support-v13:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/3690836c39b5451424c77f7d3a3e99df/transformed/support-v13-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/77a436627de5d67cddaddf82acfaff21/transformed/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa42425b228bce41c4e1d4490094745e/transformed/design-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/6352836a995279ebd453d82e5ee0a6aa/transformed/cardview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/8.14.3/transforms/81134e2e0cec2c0f762cf1882489af41/transformed/constraint-layout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/378611c99f9ab6b3fa60dc8222705a54/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/4dd289ea130ef34c58f58e87a982c743/transformed/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/7b73e95a753f487b7fb314a93042d918/transformed/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/26a8e17f9289a2223156ac04432d2a3f/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/49451113ee15f0c94d8854053ec19cd8/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/3b86ff371fd24fb1d44baf8f5cfb20f7/transformed/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/7e87836afaf04ba3a13537313f0a3798/transformed/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/13f2e5f9ac7641a32058d76089c7cf36/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/554664af1df8dfca6a3d1308b4dae124/transformed/transition-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa5fe74d5a7c6e8708c1a0f96fe5f0f7/transformed/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/28bac6c057f424690b3d80f12e95dad4/transformed/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/a2259a7c3c25434a72f604c0e064a1eb/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/e73f592dccc71d0bcc993a7dd3a60a4d/transformed/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/e0eb6476a82e95c9981fcf29dce5025b/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/1e009e99fde7ed77e0c7fc8293c5aa11/transformed/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/b8730ce7b9fc1736d30a2adc2cc37595/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/64d949697fad41ea821d3c9108c736a8/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/879e24b91260232b162f37a7c126e9ba/transformed/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0c6bd73d5290c90dd3885008edfbeae/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/6fa9d12e7b3bf8b20b3a33e2a0a4c5b6/transformed/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/6e4aa3f7b694b9d141b156d4ffd7a12e/transformed/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/bf92927373ad28355b0da11c6b43b9e8/transformed/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0614b35fc407ad12cece311984a9474/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fd3f1191fd8b1b09979732d5a0cea082/transformed/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/1bbe1066a8d0be1683eb29ec8a2cb8ba/transformed/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/9d44d5df7b7f441b380848008e088391/transformed/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/c973e422f95995cc855388c27200e1fd/transformed/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/6bb70241e78f390b4180d4ba0bef6f1d/transformed/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/03e61a86d69b732a1cc6681766efd595/transformed/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml
+		INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:18:11-69
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:18:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:20:5-65
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:20:5-65
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:20:22-62
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:21:5-81
-	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:21:22-78
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:20:22-62
 uses-permission#android.permission.INTERNET
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:22:5-67
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:22:22-64
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:21:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:23:5-79
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:23:22-76
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:22:22-76
 uses-feature#android.hardware.camera
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:25:5-60
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:24:5-60
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:25:19-57
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:24:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:26:5-70
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:25:5-70
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:26:19-67
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:25:19-67
 application
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:28:5-44:19
-INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:28:5-44:19
-MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/transforms-4/22f5c80f164a6192caddd6fab6382f49/transformed/design-28.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/transforms-4/22f5c80f164a6192caddd6fab6382f49/transformed/design-28.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/transforms-4/5b75e7e0be0bcca1848a24ad6ecbfe19/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/transforms-4/5b75e7e0be0bcca1848a24ad6ecbfe19/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/f03f21938166e3983686b731ffb9787a/transformed/support-compat-28.0.0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/f03f21938166e3983686b731ffb9787a/transformed/support-compat-28.0.0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/transforms-4/b0a1ca914bd8461ac47685eb8951f86d/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/transforms-4/b0a1ca914bd8461ac47685eb8951f86d/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:27:5-43:19
+INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:27:5-43:19
+MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa42425b228bce41c4e1d4490094745e/transformed/design-28.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa42425b228bce41c4e1d4490094745e/transformed/design-28.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/8.14.3/transforms/81134e2e0cec2c0f762cf1882489af41/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/8.14.3/transforms/81134e2e0cec2c0f762cf1882489af41/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/879e24b91260232b162f37a7c126e9ba/transformed/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/879e24b91260232b162f37a7c126e9ba/transformed/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0c6bd73d5290c90dd3885008edfbeae/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0c6bd73d5290c90dd3885008edfbeae/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
 	android:extractNativeLibs
-		INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml
+		INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/f03f21938166e3983686b731ffb9787a/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/879e24b91260232b162f37a7c126e9ba/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:29:9-41
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:28:9-41
 	android:largeHeap
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:31:9-33
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:30:9-33
 	android:allowBackup
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:28:18-44
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:27:18-44
 	android:theme
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:30:9-40
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:29:9-40
 activity#com.example.android.anuqrng.MainActivity
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:33:9-39:20
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:32:9-38:20
 	android:exported
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:33:19-47
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:32:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:35:13-38:29
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:34:13-37:29
 action#android.intent.action.MAIN
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:36:17-69
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:37:17-77
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:37:27-74
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:36:27-74
 activity#com.example.android.anuqrng.CameraActivity
-ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:41:9-43:20
+ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:40:9-42:20
 	android:theme
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:42:13-49
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml:41:19-49
+		ADDED from /home/iamu/android-qrng/src/main/AndroidManifest.xml:40:19-49
 uses-sdk
-INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml
-INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:28.0.0] /home/iamu/.gradle/caches/transforms-4/7d4a72d5a84b6164e74124382e727696/transformed/support-v13-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:28.0.0] /home/iamu/.gradle/caches/transforms-4/7d4a72d5a84b6164e74124382e727696/transformed/support-v13-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/iamu/.gradle/caches/transforms-4/8e4801cb4cef775a8ec9fcbb98f92955/transformed/support-v4-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/iamu/.gradle/caches/transforms-4/8e4801cb4cef775a8ec9fcbb98f92955/transformed/support-v4-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/transforms-4/22f5c80f164a6192caddd6fab6382f49/transformed/design-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/transforms-4/22f5c80f164a6192caddd6fab6382f49/transformed/design-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/f8eeb1b21953da26809fa7bf850b5354/transformed/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/f8eeb1b21953da26809fa7bf850b5354/transformed/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/transforms-4/5b75e7e0be0bcca1848a24ad6ecbfe19/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/transforms-4/5b75e7e0be0bcca1848a24ad6ecbfe19/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/77f98af70890fb7116a6c18318fba125/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/77f98af70890fb7116a6c18318fba125/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/53bb4eb208c6a4757acafedf7f337327/transformed/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/53bb4eb208c6a4757acafedf7f337327/transformed/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/iamu/.gradle/caches/transforms-4/d027bb506d7635f0210d407f4034ada2/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/iamu/.gradle/caches/transforms-4/d027bb506d7635f0210d407f4034ada2/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamu/.gradle/caches/transforms-4/a41e81d104231c7aa56b6b5bebafbdf7/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamu/.gradle/caches/transforms-4/a41e81d104231c7aa56b6b5bebafbdf7/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/0e6c498bd09266f871d98b97d5b8cad1/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/iamu/.gradle/caches/transforms-4/0e6c498bd09266f871d98b97d5b8cad1/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/iamu/.gradle/caches/transforms-4/0b6d62c2ee513995808a40a087af8db0/transformed/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/iamu/.gradle/caches/transforms-4/0b6d62c2ee513995808a40a087af8db0/transformed/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/iamu/.gradle/caches/transforms-4/3f184e9fc11d62025f0deea5bd1a4169/transformed/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/iamu/.gradle/caches/transforms-4/3f184e9fc11d62025f0deea5bd1a4169/transformed/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/iamu/.gradle/caches/transforms-4/fa06edcb3379bf184224bdf32291c9d7/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/iamu/.gradle/caches/transforms-4/fa06edcb3379bf184224bdf32291c9d7/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/iamu/.gradle/caches/transforms-4/049d55db8060864297772c2a4b8c84ad/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/iamu/.gradle/caches/transforms-4/049d55db8060864297772c2a4b8c84ad/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/iamu/.gradle/caches/transforms-4/e48876c5857bd320f8fcb2ec6778d2aa/transformed/loader-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/iamu/.gradle/caches/transforms-4/e48876c5857bd320f8fcb2ec6778d2aa/transformed/loader-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/iamu/.gradle/caches/transforms-4/cd832ceda828315b3d2a51510075b85d/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/iamu/.gradle/caches/transforms-4/cd832ceda828315b3d2a51510075b85d/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/4b2d275770277d35d1093a5af5587f48/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/4b2d275770277d35d1093a5af5587f48/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/d7c3559a106fde0f9d18ab69e9ea0c89/transformed/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/d7c3559a106fde0f9d18ab69e9ea0c89/transformed/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/b408ae7c0a1337c37f18029dca3fc808/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/b408ae7c0a1337c37f18029dca3fc808/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/iamu/.gradle/caches/transforms-4/a0eaedd1c0cd60820e2a7164c29b38bf/transformed/customview-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/iamu/.gradle/caches/transforms-4/a0eaedd1c0cd60820e2a7164c29b38bf/transformed/customview-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/61d313cc4251dff82421aec3f6dfd882/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/iamu/.gradle/caches/transforms-4/61d313cc4251dff82421aec3f6dfd882/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/iamu/.gradle/caches/transforms-4/2d7a8bc6c296a5a2b4daa2dd8240305e/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/iamu/.gradle/caches/transforms-4/2d7a8bc6c296a5a2b4daa2dd8240305e/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/f03f21938166e3983686b731ffb9787a/transformed/support-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/transforms-4/f03f21938166e3983686b731ffb9787a/transformed/support-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/transforms-4/b0a1ca914bd8461ac47685eb8951f86d/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/transforms-4/b0a1ca914bd8461ac47685eb8951f86d/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamu/.gradle/caches/transforms-4/697da02afd1eeb6a83db39dad8901278/transformed/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamu/.gradle/caches/transforms-4/697da02afd1eeb6a83db39dad8901278/transformed/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamu/.gradle/caches/transforms-4/55227bfe16fd217c742a647ce4fb024e/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamu/.gradle/caches/transforms-4/55227bfe16fd217c742a647ce4fb024e/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/iamu/.gradle/caches/transforms-4/82acf0a82ecb11776fee0201e678d74c/transformed/documentfile-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/iamu/.gradle/caches/transforms-4/82acf0a82ecb11776fee0201e678d74c/transformed/documentfile-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamu/.gradle/caches/transforms-4/6e6bebaedbebec00677dca5a66f14cf6/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamu/.gradle/caches/transforms-4/6e6bebaedbebec00677dca5a66f14cf6/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/iamu/.gradle/caches/transforms-4/7ae06bd8863103833ef96848dbca1106/transformed/print-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/iamu/.gradle/caches/transforms-4/7ae06bd8863103833ef96848dbca1106/transformed/print-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/iamu/.gradle/caches/transforms-4/9fbfc8429c7f8ee06493ad2a9b116378/transformed/interpolator-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/iamu/.gradle/caches/transforms-4/9fbfc8429c7f8ee06493ad2a9b116378/transformed/interpolator-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamu/.gradle/caches/transforms-4/0aecc767c65a86ee8176656092f9c602/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamu/.gradle/caches/transforms-4/0aecc767c65a86ee8176656092f9c602/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/iamu/.gradle/caches/transforms-4/ba41bdc8db49b8e86d7550ebd9146e47/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/iamu/.gradle/caches/transforms-4/ba41bdc8db49b8e86d7550ebd9146e47/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamu/.gradle/caches/transforms-4/6a5dc786f85c001696451b5415b91306/transformed/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamu/.gradle/caches/transforms-4/6a5dc786f85c001696451b5415b91306/transformed/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/iamu/.gradle/caches/transforms-4/b17b025be5b372a151f2402c1f236c04/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/iamu/.gradle/caches/transforms-4/b17b025be5b372a151f2402c1f236c04/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml
+INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/3690836c39b5451424c77f7d3a3e99df/transformed/support-v13-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/3690836c39b5451424c77f7d3a3e99df/transformed/support-v13-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/77a436627de5d67cddaddf82acfaff21/transformed/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/77a436627de5d67cddaddf82acfaff21/transformed/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa42425b228bce41c4e1d4490094745e/transformed/design-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa42425b228bce41c4e1d4490094745e/transformed/design-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/6352836a995279ebd453d82e5ee0a6aa/transformed/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/6352836a995279ebd453d82e5ee0a6aa/transformed/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/8.14.3/transforms/81134e2e0cec2c0f762cf1882489af41/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/iamu/.gradle/caches/8.14.3/transforms/81134e2e0cec2c0f762cf1882489af41/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/378611c99f9ab6b3fa60dc8222705a54/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/378611c99f9ab6b3fa60dc8222705a54/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/4dd289ea130ef34c58f58e87a982c743/transformed/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/4dd289ea130ef34c58f58e87a982c743/transformed/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/7b73e95a753f487b7fb314a93042d918/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/7b73e95a753f487b7fb314a93042d918/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/26a8e17f9289a2223156ac04432d2a3f/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/26a8e17f9289a2223156ac04432d2a3f/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/49451113ee15f0c94d8854053ec19cd8/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/49451113ee15f0c94d8854053ec19cd8/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/3b86ff371fd24fb1d44baf8f5cfb20f7/transformed/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/3b86ff371fd24fb1d44baf8f5cfb20f7/transformed/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/7e87836afaf04ba3a13537313f0a3798/transformed/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/7e87836afaf04ba3a13537313f0a3798/transformed/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/13f2e5f9ac7641a32058d76089c7cf36/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/13f2e5f9ac7641a32058d76089c7cf36/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/554664af1df8dfca6a3d1308b4dae124/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/554664af1df8dfca6a3d1308b4dae124/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa5fe74d5a7c6e8708c1a0f96fe5f0f7/transformed/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fa5fe74d5a7c6e8708c1a0f96fe5f0f7/transformed/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/28bac6c057f424690b3d80f12e95dad4/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/28bac6c057f424690b3d80f12e95dad4/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/a2259a7c3c25434a72f604c0e064a1eb/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/a2259a7c3c25434a72f604c0e064a1eb/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/e73f592dccc71d0bcc993a7dd3a60a4d/transformed/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/e73f592dccc71d0bcc993a7dd3a60a4d/transformed/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/e0eb6476a82e95c9981fcf29dce5025b/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/e0eb6476a82e95c9981fcf29dce5025b/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/1e009e99fde7ed77e0c7fc8293c5aa11/transformed/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/1e009e99fde7ed77e0c7fc8293c5aa11/transformed/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/b8730ce7b9fc1736d30a2adc2cc37595/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/b8730ce7b9fc1736d30a2adc2cc37595/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/64d949697fad41ea821d3c9108c736a8/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/64d949697fad41ea821d3c9108c736a8/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/879e24b91260232b162f37a7c126e9ba/transformed/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/879e24b91260232b162f37a7c126e9ba/transformed/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0c6bd73d5290c90dd3885008edfbeae/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0c6bd73d5290c90dd3885008edfbeae/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/6fa9d12e7b3bf8b20b3a33e2a0a4c5b6/transformed/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/6fa9d12e7b3bf8b20b3a33e2a0a4c5b6/transformed/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/6e4aa3f7b694b9d141b156d4ffd7a12e/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/6e4aa3f7b694b9d141b156d4ffd7a12e/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/bf92927373ad28355b0da11c6b43b9e8/transformed/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/bf92927373ad28355b0da11c6b43b9e8/transformed/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0614b35fc407ad12cece311984a9474/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/c0614b35fc407ad12cece311984a9474/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fd3f1191fd8b1b09979732d5a0cea082/transformed/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/fd3f1191fd8b1b09979732d5a0cea082/transformed/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/1bbe1066a8d0be1683eb29ec8a2cb8ba/transformed/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/iamu/.gradle/caches/8.14.3/transforms/1bbe1066a8d0be1683eb29ec8a2cb8ba/transformed/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/9d44d5df7b7f441b380848008e088391/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/9d44d5df7b7f441b380848008e088391/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/c973e422f95995cc855388c27200e1fd/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/c973e422f95995cc855388c27200e1fd/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/6bb70241e78f390b4180d4ba0bef6f1d/transformed/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/6bb70241e78f390b4180d4ba0bef6f1d/transformed/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/03e61a86d69b732a1cc6681766efd595/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/iamu/.gradle/caches/8.14.3/transforms/03e61a86d69b732a1cc6681766efd595/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml
+		INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/iamu/GitHub/android-qrng/src/main/AndroidManifest.xml
+		INJECTED from /home/iamu/android-qrng/src/main/AndroidManifest.xml

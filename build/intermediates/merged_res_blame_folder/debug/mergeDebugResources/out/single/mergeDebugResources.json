@@ -1,102 +1,98 @@
 [
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-xxhdpi/ic_launcher.png"
+        "merged": "com.example.android.anuqrng-debug-13:/layout_activity_main.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-pngs-9:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-xhdpi_ic_action_info.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-xhdpi/ic_action_info.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable/ic_notifications_black_24dp.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_fragment_permute.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/fragment_permute.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_fragment_disk.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/fragment_disk.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-hdpi_ic_action_info.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-hdpi/ic_action_info.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable_ic_home_black_24dp.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable/ic_home_black_24dp.xml"
-    },
-    {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_fragment_home.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/fragment_home.xml"
-    },
-    {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-xxhdpi_ic_action_info.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-xxhdpi/ic_action_info.png"
-    },
-    {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-xhdpi/ic_launcher.png"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "com.example.android.anuqrng-debug-13:/layout_fragment_settings.xml.flat",
         "source": "com.example.android.anuqrng-main-16:/layout/fragment_settings.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_activity_camera.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/activity_camera.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-xxhdpi_ic_action_info.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-xxhdpi/ic_action_info.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-mdpi_ic_action_info.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-mdpi/ic_action_info.png"
+        "merged": "com.example.android.anuqrng-debug-13:/layout_fragment_disk.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/fragment_disk.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-hdpi/ic_launcher.png"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable/ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_fragment_float.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/fragment_float.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/layout_fragment_home.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/fragment_home.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/menu_menu_main.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/menu/menu_main.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/layout_activity_camera.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/activity_camera.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-xhdpi_ic_action_info.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-xhdpi/ic_action_info.png"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_fragment_camera2_basic.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/fragment_camera2_basic.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/menu_navigation.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/menu/navigation.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-hdpi_ic_action_info.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-hdpi/ic_action_info.png"
+        "merged": "com.example.android.anuqrng-debug-13:/layout_fragment_permute.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/fragment_permute.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/menu_navigation.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/menu/navigation.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-hdpi_tile.9.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-hdpi/tile.9.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_activity_main.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/activity_main.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable/ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable/ic_dashboard_black_24dp.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-mdpi_ic_action_info.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-mdpi/ic_action_info.png"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-mdpi/ic_launcher.png"
+        "merged": "com.example.android.anuqrng-debug-13:/layout_fragment_float.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/fragment_float.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/layout_fragment_settings.xml.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/layout/fragment_settings.xml"
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-debug-13:/drawable-hdpi_tile.9.png.flat",
-        "source": "/home/iamu/.gradle/daemon/8.7/com.example.android.anuqrng-main-16:/drawable-hdpi/tile.9.png"
+        "merged": "com.example.android.anuqrng-debug-13:/menu_menu_main.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.android.anuqrng-debug-13:/layout_fragment_camera2_basic.xml.flat",
+        "source": "com.example.android.anuqrng-main-16:/layout/fragment_camera2_basic.xml"
+    },
+    {
+        "merged": "com.example.android.anuqrng-debug-13:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.example.android.anuqrng-main-16:/drawable-mdpi/ic_launcher.png"
     }
 ]
